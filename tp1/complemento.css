@@ -1,0 +1,96 @@
+input {
+	border-color: #a09d9d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+	padding: 10px;
+	margin: 10px;
+}
+
+input:hover {
+	border-color: #7d7c7c;
+}
+	
+input:focus {
+	border-color: #a09d9d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.img-menu {
+	width: 20%;
+    height: 20%;
+    flex-grow: 1;
+}
+
+.title-menu  {
+    font-size: 34px;
+    margin-right: 50%;
+    margin-top: 4%;
+    color: white;
+    flex-grow: 8;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.header-menu {
+    background: black;    
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cat-menu {
+    display: flex;
+    background: black;
+    width: 100%;
+}
+
+.cat-menu h3{
+    color: white;
+    margin-left: 13px;
+}
+
+.cat-menu ul{
+    display: flex;
+}
+.cat-menu li{
+    margin-top: 6px;
+    margin-left: 112px;
+}
+.cat-menu a{
+    text-decoration: none;
+    color: #ae0b1b;
+    border-left: 3px solid;
+    padding-left: 14px;
+    font-family: Verdana;
+}
+.cat-menu a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.sec-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+      
+.sec-main > section {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.sec-footer {
+    display: flex;
+    background: black;
+    width: 100%;
+    font-size: 29px;
+    padding: 13px;
+    color: white;
+    justify-content: center;
+}
