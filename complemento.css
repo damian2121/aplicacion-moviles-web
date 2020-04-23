@@ -20,20 +20,25 @@ input:focus {
 }
 
 .img-menu {
-	width: 20%;
-    height: 20%;
+	width: 100%;
+    height: 100%;
     flex-grow: 1;
 }
 
 .title-menu  {
     font-size: 34px;
+    width: max-content;
+    float: right;
     margin-right: 50%;
-    margin-top: 4%;
     color: white;
     flex-grow: 8;
-    margin: 10px;
-    text-align: center;
     line-height: 75px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title-menu:hover{
+    color: #d5603f;
 }
 
 .header-menu {
@@ -43,10 +48,22 @@ input:focus {
     flex-wrap: wrap;
 }
 
+.left-pad {
+    width: 12%;
+}
+
+.right-pad {
+    width: 88%;
+}
+
 .cat-menu {
-    display: flex;
-    background: black;
-    width: 100%;
+    background-image: linear-gradient(to right, #040404 , #1a386d);
+    border-right: 2px solid white;
+}
+
+.cat-menu:hover {
+    border-right: 2px solid #656363;
+    cursor: pointer;
 }
 
 .cat-menu h3{
@@ -54,28 +71,28 @@ input:focus {
     margin-left: 13px;
 }
 
-.cat-menu ul{
-    display: flex;
-}
 .cat-menu li{
-    margin-top: 6px;
-    margin-left: 112px;
+    margin-top: 10px;
 }
 .cat-menu a{
     text-decoration: none;
-    color: #ae0b1b;
-    border-left: 3px solid;
-    padding-left: 14px;
+    color: white;
+    padding-bottom: 4px;
     font-family: Verdana;
+}
+.cat-menu a:hover {
+    border-bottom: 1px solid;
+    color: #d5603f;
 }
 .cat-menu a:hover{
     text-decoration: none;
-    color: red;
+    color: #d5603f;
+    margin-left: 3px;
 }
 
 .sec-main {
-    display: flex;
     flex-wrap: wrap;
+    border-left: 1px white solid;
 }
       
 .sec-main > section {
@@ -93,4 +110,8 @@ input:focus {
     padding: 13px;
     color: white;
     justify-content: center;
+}
+
+.content {
+    display: flex;
 }
