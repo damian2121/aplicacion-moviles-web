@@ -1,102 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel=stylesheet href="./css/complemento.css" type="text/css">
-    <title>Practica 1 Aplicaciones Moviles</title>
-  </head>
-  <body>
-    <header class="header-menu">
-        <div class="left-pad">
-          <img class="img-menu" src="http://zonaj.net/imgupload/los-10-mejores-jugadores-de-la-nba-en-todos-los-tiempos_NpQGnM.jpg"/>
-        </div>
-        <div class="right-pad">
-          <a class="title-menu" href="http:www.nba.com" target="_blank">NBA</a>
-        </div>
-    </header>
-    <div class="content">
-      <nav class="cat-menu left-pad">
-        <h3>Categorías</h3>
-        <ul>
-          <li><a href="./html/pelotas.html">Pelotas</a></li>
-        <li><a href="./html/camisetas.html">Camisetas-Basquetball</a></li>
-        <li><a href="./html/Zapatillas.html">Zapatillas</a></li>
-        <li><a href="./html/aros.html">Aros</a></li>
-        </ul>
-      </nav>
-      <main class="sec-main right-pad">
-        <section id="seccion1">
-          <header>Pelotas</header>
-          <article>
-            <img
-              src="./img/pelota-basquet-molten.jpg"
-              alt=""
-            />
-          </article>
-          <article>
-            <img
-              src="./img/spalding-pelota.jpg"
-              alt=""
-            />
-          </article>
-          <article>
-            <img
-              src="./img/pelota-adidas.jpg"
-              alt=""
-            />
-          </article>
-         
-          <footer>Descripcion</footer>
-        </section>
-        <section id="seccion2">
-          <header>Camisetas-Basquetball</header>
-          <article>
-            <img
-              src="./img/bull-camiseta.jpg"
-              alt=""
-            />
-          </article>
-          <article>
-            <img
-              src="./img/camiseta-basquet-azul.jpg"
-              alt=""
-            />
-          </article>
-          <article>
-            <img
-              src="./img/camiseta-basquet-visa.jpg"
-              alt=""
-            />
-          </article>
-          <article>
-            <img
-              src="./img/camiseta-ginobilli.jpg"
-              alt=""
-            />
-          </article>
-          <footer>Descripcion</footer>
-        </section>
-        <section id="seccion3">
-          <header>Zapatillas</header>
-        <article><img src="./img/zapatilla-loca.jpg" alt="" /></article>
-        <article><img src="./img/zapatilla-under.jpg" alt="" /></article>
-        <article><img src="./img/zapatilla-azulgrana.jpg" alt="" /></article>
-        <article><img src="./img/nike-negra.jpg" alt="" /></article>          
-          <footer>Descripcion</footer>
-        </section>
-        <section id="seccion4">
-         <header>Aros</header>
-        <article><img src="./img/Aro-basquet23.jpg" alt="" /></article>
-        <article><img src="./img/arofeo.jpg" alt="" /></article>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <link rel="stylesheet" href="./css/complemento.css" type="text/css" />
+        <link rel="stylesheet" href="./css/secciones.css" />
+        <title>Practica 1 Aplicaciones Moviles</title>
+    </head>
+    <body>
+        <header class="header-menu">
+            <div class="left-pad">
+                <img
+                    class="img-menu"
+                    src="http://zonaj.net/imgupload/los-10-mejores-jugadores-de-la-nba-en-todos-los-tiempos_NpQGnM.jpg"
+                />
+            </div>
+            <div class="right-pad tituloprincipal--titulo">
+                <a class="title-menu" href="http:www.nba.com" target="_blank">NBA</a>
+            </div>
+        </header>
+        <div class="content">
+            <nav class="cat-menu left-pad">
+                <h3>Categorías</h3>
+                <ul>
+                    <li><a href="./html/pelotas.html">Pelotas</a></li>
+                    <li><a href="./html/camisetas.html">Camisetas-Basquetball</a></li>
+                    <li><a href="./html/Zapatillas.html">Zapatillas</a></li>
+                    <li><a href="./html/aros.html">Aros</a></li>
+                </ul>
+            </nav>
+            <main class="sec-main right-pad">
+                <section id="seccion1" class="seccion">
+                    <header class="seccion--header">Pelotas</header>
+                    <div class="seccion--container">
+                        <article class="seccion--item" class="seccion--item">
+                            <img src="./img/pelota-basquet-molten.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/spalding-pelota.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/pelota-adidas.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                    </div>
+                </section>
+                <section id="seccion2" class="seccion">
+                    <header class="seccion--header">Camisetas-Basquetball</header>
+                    <div class="seccion--container">
+                        <article class="seccion--item">
+                            <img src="./img/bull-camiseta.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/camiseta-basquet-azul.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/camiseta-basquet-visa.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/camiseta-ginobilli.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                    </div>
+                    <footer>Descripcion</footer>
+                </section>
+                <section id="seccion3" class="seccion">
+                    <header class="seccion--header">Zapatillas</header>
+                    <div class="seccion--container">
+                        <article class="seccion--item">
+                            <img src="./img/zapatilla-loca.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
 
-        <article><img src="./img/Aro-tablero.jpg" alt="" /></article>
-        <article><img src="./img/aro-loco.jpg" alt="" /></article>
-          <footer>Descripcion</footer>
-        </section>
-      </main>
-    </div>
+                        <article class="seccion--item">
+                            <img src="./img/zapatilla-under.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
 
-    <footer class="sec-footer">Lescano Nicolás - González Nicolás - Monzón Leandro</footer>
-  </body>
+                        <article class="seccion--item">
+                            <img src="./img/zapatilla-azulgrana.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+
+                        <article class="seccion--item">
+                            <img src="./img/nike-negra.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                    </div>
+                </section>
+                <section id="seccion4" class="seccion">
+                    <header class="seccion--header">Aros</header>
+
+                    <div class="seccion--container">
+                        <article class="seccion--item">
+                            <img src="./img/Aro-basquet23.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/arofeo.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/Aro-tablero.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                        <article class="seccion--item">
+                            <img src="./img/aro-loco.jpg" alt="" />
+                            <footer>Descripcion</footer>
+                        </article>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <footer class="sec-footer">Lescano Nicolás - González Nicolás - Monzón Leandro</footer>
+    </body>
 </html>

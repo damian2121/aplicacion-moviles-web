@@ -1,0 +1,28 @@
+.seccion {
+    width: 100%;
+    border-bottom: 1px solid red;
+    margin-bottom: 100px;
+}
+.seccion--header {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #1d428a;
+    color: white;
+}
+
+.seccion--item {
+    display: inline-block;
+    text-align: center;
+}
+
+.seccion--container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloprincipal--titulo {
+    position: absolute;
+    left: 50%;
+}
