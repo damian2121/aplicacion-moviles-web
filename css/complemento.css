@@ -11,11 +11,9 @@ input {
     padding: 10px;
     margin: 10px;
 }
-
 input:hover {
     border-color: #7d7c7c;
 }
-
 input:focus {
     border-color: #a09d9d;
     border-top: none;
@@ -29,26 +27,25 @@ input:focus {
     flex-grow: 1;
 }
 
-
 .title-menu  {
-    font-size: 34px;
-    width: max-content;
-    float: right;
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    color: white;
-    flex-grow: 8;
-    line-height: 75px;
-    cursor: pointer;
-    text-decoration: none;
     text-align: center;
 }
-
-.title-menu:hover {
+.title-menu a{
+    font-size: 34px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.title-menu a:hover {
     color: #d5603f;
 }
 
-iframe {display: flex; width:100%; height:100vh }
+iframe {
+    display: flex; 
+    width:100%; 
+    height:100vh;
+}
 
 .header-menu {
     background: black;
@@ -61,7 +58,6 @@ iframe {display: flex; width:100%; height:100vh }
 .left-pad {
     width: 12%;
 }
-
 .right-pad {
     width: 88%;
 }
@@ -70,19 +66,16 @@ iframe {display: flex; width:100%; height:100vh }
     background-image: linear-gradient(to right, #040404, #1a386d);
     border-right: 2px solid white;
 }
-
 .cat-menu:hover {
     border-right: 2px solid #656363;
     cursor: pointer;
 }
-
 .cat-menu h3 {
     color: white;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 13px;
-    font-family: 'Markazi Text', serif;
+    font-family: Verdana;
 }
-
 .cat-menu li {
     margin-top: 10px;
 }
@@ -93,11 +86,10 @@ iframe {display: flex; width:100%; height:100vh }
     font-family: Verdana;
 }
 .cat-menu a:hover {
-    border-bottom: 1px solid;
-    color: #d5603f;
-}
-.cat-menu a:hover {
     text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-width: 3px;
     color: #d5603f;
     margin-left: 3px;
 }
@@ -105,7 +97,6 @@ iframe {display: flex; width:100%; height:100vh }
 .sec-main {
     flex-wrap: wrap;
     border-left: 1px white solid;
-    /* background-image: url(../img/NBA-logo-png-download-free.png); */
     background-repeat: no-repeat;
 }
 
@@ -114,33 +105,16 @@ iframe {display: flex; width:100%; height:100vh }
     height: 200px;
     background-image:url(../img/NBA-logo-png-download-free.png);
     background-repeat: no-repeat;
-    
 }
-
-.sec-main img{
-    width: 200px;
-    height: 200px;
-}
-
-.sec-main > section {
+.sec-main > section, 
+.sec-main > .sec-simulate-section {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     font-family: 'Cabin', sans-serif;
+    transition: width 2s, height 2s, margin 2s;
+    margin: 40px auto 0;
 }
-
-.footerInSection {
-    font-size: 11 px;
-
-    
-}
-
-
-.footerInSection{
-    font-size:11 px;
-    color: dimgrey;
-}
-
 .sec-footer {
     display: flex;
     background: black;
@@ -150,57 +124,34 @@ iframe {display: flex; width:100%; height:100vh }
     justify-content: center;
 }
 
+.footerInSection{
+    font-size:11 px;
+    color: dimgrey;
+}
+
 .content {
     display: flex;
     font-family: 'Anton', sans-serif;
 }
 
 .sec-pelotas {
-    background-image: url(../img/fondo-accesorios-baloncesto-dibujados-mano_23-2147610420.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .sec-pelotas img {
     width: 300px;
     height: 300px;
-}
-
-article {
-
-    font-family: 'Anton', sans-serif;
-}
-
-.sec-pelotas{
-    background-image:url(../img/fondo-accesorios-baloncesto-dibujados-mano_23-2147610420.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 .sec-pelotas article{
     margin-left: 45%;
 
 }
-
-.sec-pelotas img {
-    width:300px;
-    height: 300px ;
-}
-
- article{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-
 .sec-pelotas h2 {
     font-family: 'Anton', sans-serif;
     margin-left: 50%;
     font-size: 40px;
 }
 
-.sec-pelotas h2{
+article {
     font-family: 'Anton', sans-serif;
-    margin-left: 50%;
-    font-size: 40px;
 }

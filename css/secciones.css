@@ -32,3 +32,8 @@
     transform: scale(1.2, 1.2);
     background-color: white;
 }
+
+.transition {
+    transition: width 2s, height 2s, margin 2s;
+    margin: 50px auto 0;
+}
