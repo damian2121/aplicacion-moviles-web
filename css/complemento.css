@@ -65,6 +65,7 @@ iframe {
 .cat-menu {
     background-image: linear-gradient(to right, #040404, #1a386d);
     border-right: 2px solid white;
+    display: flex;
 }
 .cat-menu:hover {
     border-right: 2px solid #656363;
@@ -77,10 +78,13 @@ iframe {
     font-family: Verdana;
 }
 .cat-menu li {
-    margin-top: 10px;
+    display: inline-flex;
+    width: 200px;
+    margin-top: 5px;
 }
 .cat-menu a {
     text-decoration: none;
+    font-size: 19px;
     color: white;
     padding-bottom: 4px;
     font-family: Verdana;
@@ -154,4 +158,141 @@ iframe {
 
 article {
     font-family: 'Anton', sans-serif;
+}
+
+textarea{
+    resize: vertical;
+    margin-left: 0;
+    max-height: 300px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+form{
+    width: 50%;
+    border: 1px solid #ccc;
+    position: absolute;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+
+}
+form input{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    height:50px;
+    width:-webkit-fill-available;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    
+}
+
+.checkgroup{
+  display: inline-flex;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkgroup input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkgroup:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+.checkgroup input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+.checkgroup input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  .checkgroup  .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+form select{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    height:50px;
+    width:-webkit-fill-available;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+form option{
+    text-align: center;
+}
+form button{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: darkcyan;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.invalido{
+    border-color: #FA5252;
+    padding-right: calc(1.5em + 1.2rem);
+}
+
+form label{
+    margin-top: 20px;
+    display: block;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.tituloForm{
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    font-family:sans-serif;
+    margin: auto;
+    padding: 30px;
 }
