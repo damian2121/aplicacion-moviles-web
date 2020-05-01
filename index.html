@@ -6,6 +6,11 @@
         <link rel="stylesheet" href="./css/normalize.css" />
         <link rel="stylesheet" href="./css/complemento.css" type="text/css" />
         <link rel="stylesheet" href="./css/secciones.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous"
+        ></script>
         <title>Practica 1 Aplicaciones Moviles</title>
     </head>
     <body>
@@ -33,10 +38,15 @@
         </nav>
         <div class="">
             <main class="right-pad" style="width: 100%;">
-                <iframe src="./html/principal.html" frameborder="0" name="categorias"></iframe>
+                <div class="Carrito">
+                    <h3 class="Carrito--titulo">Monto Total</h3>
+                    <span id="montoId" class="Carrito--monto">vxcasdfdf</span>
+                </div>
+                <iframe id="idIframe" src="./html/principal.html" frameborder="0" name="categorias"></iframe>
             </main>
         </div>
 
         <footer class="sec-footer">Lescano Nicolás - González Nicolás - Monzón Leandro</footer>
+        <script src="./js/carrito-compras.js"></script>
     </body>
 </html>

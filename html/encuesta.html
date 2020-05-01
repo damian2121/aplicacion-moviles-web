@@ -1,37 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/complemento.css" type="text/css" />
-    <link rel="stylesheet" href="../css/secciones.css" />
-    <title>Practica-2-AppMoviles</title>
-</head>
-<body>
-    <h2 class="tituloForm">Encuesta Tienda NBA</h2>
-   <form action="" name="form" id="form" method="GET">
-      <label>Nombre:</label><input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre">
-      <label>Apellido:</label><input type="text" name="apellido" id="apellido" placeholder="escribe tu apellido">
-      <label>Fecha de nacimiento:</label><input type="date" name="fecha" id="fecha" placeholder="Selecciona tu fecha">
-      <label>Email:</label><input type="email" name="email" id="email" placeholder="escriba su email">
-      <label>Sexo:</label> <label class="checkgroup">Hombre<input type="radio" name="sexo" id="masculino" ><span class="checkmark"></span></label> 
-      <label class="checkgroup">Mujer<input type="radio" 
-        name="sexo" id="femenino"><span class="checkmark"></span></label>
-      <label>Valoracion pagina</label>
-    <select name="valoracion" id="valoracion">
-        <option value="0">Elija su valoracion</option>
-        <option value="1">lamentable</option>
-        <option value="2">mala</option>
-        <option value="3">podria ser mejor</option>
-        <option value="4">cumple mis expectativas</option>
-        <option value="5">me encantó</option>
-      </select>
-      <label>Comentario:</label><textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
-      <button type="submit" id="enviar">Enviar</button>
-      <button>cancelar</button>
-      <button type="reset">Reestablecer valores</button>
-   </form>
-   <script src="../js/validar-form.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/normalize.css" />
+        <link rel="stylesheet" href="../css/complemento.css" type="text/css" />
+        <link rel="stylesheet" href="../css/encuesta.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.5.0.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+            crossorigin="anonymous"
+        ></script>
+        <title>Practica-2-AppMoviles</title>
+    </head>
+    <body>
+        <h2 class="tituloForm">Encuesta Tienda NBA</h2>
+        <div class="form">
+            <form action="" name="form" id="form" method="GET">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="escribe tu nombre" />
+                <label>Apellido:</label
+                ><input type="text" name="apellido" id="apellido" placeholder="escribe tu apellido" />
+                <label>Fecha de nacimiento:</label
+                ><input type="date" name="fecha" id="fecha" placeholder="Selecciona tu fecha" /> <label>Email:</label
+                ><input type="email" name="email" id="email" placeholder="escriba su email" /> <label>Sexo:</label>
+                <div id="radioGenero">
+                    <label class="checkgroup"
+                        >Hombre<input type="radio" name="sexo" id="masculino" value="Hombre" /><span
+                            class="checkmark"
+                        ></span
+                    ></label>
+                    <label class="checkgroup"
+                        >Mujer<input type="radio" name="sexo" id="femenino" value="Mujer" /><span
+                            class="checkmark"
+                        ></span
+                    ></label>
+                </div>
+                <label>Valoracion pagina</label>
+                <select name="valoracion" id="valoracion">
+                    <option value="0">Elija su valoracion</option>
+                    <option value="1">lamentable</option>
+                    <option value="2">mala</option>
+                    <option value="3">podria ser mejor</option>
+                    <option value="4">cumple mis expectativas</option>
+                    <option value="5">me encantó</option>
+                </select>
+                <label>Comentario:</label><textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+                <div class="form--button">
+                    <button type="button" id="enviar">Enviar</button>
+                    <button type="button" id="idCancelar">Cancelar</button>
+                    <button type="reset">Reestablecer Valores</button>
+                </div>
+            </form>
+        </div>
+        <script src="../js/validar-form.js"></script>
+    </body>
 </html>

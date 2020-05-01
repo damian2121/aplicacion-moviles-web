@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form--button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form--button button {
+    width: 30%;
+    color: white;
+    background-color: #1d428a;
+    margin: 5px 5px;
+    height: auto;
+    padding: 10px;
+}
