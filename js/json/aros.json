@@ -1,0 +1,87 @@
+[
+  {
+    "id": 400,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 401,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 402,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 403,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 404,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 405,
+    "titulo": "Aro con el numero 23",
+    "img": "../img/Aro-basquet23.jpg",
+    "color": "marron y rojo",
+    "detalle": "Es un aro comun"
+  },
+  {
+    "id": 406,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  },
+  {
+    "id": 407,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  },
+  {
+    "id": 408,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  },
+  {
+    "id": 409,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  },
+  {
+    "id": 410,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  },
+  {
+    "id": 411,
+    "titulo": "Aro con tablero incluido",
+    "img": "../img/Aro-tablero.jpg",
+    "color": "blanco",
+    "detalle": "Es un aro con un tablero incluido"
+  }
+]
+//URL : http://www.json-generator.com/api/json/get/bIulZbDUya?indent=2

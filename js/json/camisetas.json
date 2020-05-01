@@ -1,0 +1,87 @@
+[
+  {
+    "id": 200,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 201,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 202,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 203,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 204,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 205,
+    "titulo": "Seleccion Argentina",
+    "img": "../img/camiseta-basquet-visa.jpg",
+    "color": "blanco y celeste",
+    "detalle": "Es una camiseta cara"
+  },
+  {
+    "id": 206,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  },
+  {
+    "id": 207,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  },
+  {
+    "id": 208,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  },
+  {
+    "id": 209,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  },
+  {
+    "id": 210,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  },
+  {
+    "id": 211,
+    "titulo": "Camiseta Azul",
+    "img": "../img/camiseta-basquet-azul.jpg",
+    "color": "azul",
+    "detalle": "Es una camiseta azul"
+  }
+]
+//URL : http://www.json-generator.com/api/json/get/cfdzqUUeEO?indent=2

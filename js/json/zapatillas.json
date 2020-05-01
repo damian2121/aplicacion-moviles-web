@@ -1,0 +1,86 @@
+[
+  {
+    "id": 300,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },
+  {
+    "id": 301,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },
+  {
+    "id": 302,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },
+  {
+    "id": 303,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },
+  {
+    "id": 304,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },
+  {
+    "id": 305,
+    "titulo": "Zapatilla azul grana",
+    "img": "../img/zapatilla-azulgrana.jpg",
+    "color": "azul grana",
+    "detalle": "Es una zapatilla comun"
+  },  
+  {"id": 306,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  },
+  {
+    "id": 307,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  },
+  {
+    "id": 308,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  },
+  {
+    "id": 309,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  },
+  {
+    "id": 310,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  },
+  {
+    "id": 311,
+    "titulo": "Zapatilla Colorida",
+    "img": "../img/zapatilla-loca.jpg",
+    "color": "colorida",
+    "detalle": "Es una zapatilla colorida"
+  }
+]
+//URL : http://www.json-generator.com/api/json/get/cuSbIljKhu?indent=2

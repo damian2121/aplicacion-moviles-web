@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+.cat-menu {
+    background-image: linear-gradient(to right, #040404, #1a386d);
+    border-right: 2px solid white;
+    display: flex;
+}
+.cat-menu:hover {
+    border-right: 2px solid #656363;
+    cursor: pointer;
+}
+.cat-menu h3 {
+    color: white;
+    font-size: 19px;
+    margin-left: 13px;
+    font-family: Verdana;
+}
+.cat-menu li {
+    display: inline-flex;
+    width: 200px;
+    margin-top: 5px;
+}
+.cat-menu a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    padding-bottom: 4px;
+    font-family: Verdana;
+    border-left: 1px solid;
+    border-radius: 2px;
+    border-left-width: 2px;
+    padding-left: 16px;
+    opacity: 70%;
+}
+.cat-menu a:hover {
+    border-left-color: #b76636;
+    color: #b76636;
+    opacity: 100%;
+}

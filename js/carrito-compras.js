@@ -22,8 +22,6 @@ $(document).ready(function () {
 $(window).bind('storage', function (e) {
     $('#montoId').text(localStorage.getItem('monto'));
     $('.Carrito').css('display', localStorage.getItem('ver'));
-
-    console.log(e.originalEvent.key, e.originalEvent.newValue);
 });
 $(document).on('scroll', function () {
     var desplazamientoActual = $(document).scrollTop();
