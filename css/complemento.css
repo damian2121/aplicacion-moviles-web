@@ -217,6 +217,8 @@ button {
 }
 
 .invalido {
+    border: 1px solid;
+    border-radius: 5px;
     border-color: #fa5252;
     padding-right: calc(1.5em + 1.2rem);
 }
@@ -238,18 +240,12 @@ label {
     padding: 30px;
 }
 
-
 #form {
     width: 50%;
     border: 1px solid #ccc;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-#form div {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding-left: 2%;
 }
 
 #form input[type='date'] {

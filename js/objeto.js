@@ -9,7 +9,10 @@ function mostrarObjeto(seccion, descripcion, url) {
         .done(function (response) {
             $.each(response, function (i, item) {
                 formPrincipal.find(seccion + ' .seccion--container').append(
-                    $('<article/>')
+                    $(`<article id=${item.id}/>`)
+                        .click(function () {
+                            seleccionarElemento(this, item);
+                        })
                         .addClass('seccion--item')
                         .append(
                             $('<img/>').css({ 'background-image': 'url(' + item.img + ')' }),
