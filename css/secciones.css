@@ -15,8 +15,14 @@
 .seccion--item {
     display: inline-block;
     text-align: center;
+    margin: 50px auto 0;
+
     transition: border, 1s;
     transition-timing-function: ease-in-out;
+}
+
+.seccion--item img {
+    background-size: cover;
 }
 
 .seccion--container {
@@ -58,10 +64,15 @@
     border-radius: 80%;
     padding: 10px;
     text-align: center;
+    opacity: 0.5;
 }
 
 .Carrito-top {
     top: 0;
     margin-top: 20px;
     position: fixed;
+}
+
+.Carrito:hover {
+    opacity: 1;
 }

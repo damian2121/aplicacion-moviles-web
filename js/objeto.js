@@ -9,7 +9,7 @@ function mostrarObjeto(seccion, descripcion, url) {
         .done(function (response) {
             $.each(response, function (i, item) {
                 formPrincipal.find(seccion + ' .seccion--container').append(
-                    $(`<article id=${item.id}/>`)
+                    $(`<article id=${item.id} />`)
                         .click(function () {
                             seleccionarElemento(this, item);
                         })
@@ -19,6 +19,7 @@ function mostrarObjeto(seccion, descripcion, url) {
                             $('<figcaption/>').text(item.titulo)
                         )
                 );
+                verificarCarrito(item);
             });
         })
         .fail(function () {

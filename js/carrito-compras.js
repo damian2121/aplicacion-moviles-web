@@ -4,14 +4,15 @@ $(document).ready(function () {
     $('article').click((elem) => seleccionarElemento(elem));
 });
 
-$(window).bind('storage', function () {
-    let carrito = JSON.parse(localStorage.getItem('carrito'));
-    console.log(carrito);
+$(window).bind('load storage', function () {
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     const total = calcularTotal(carrito);
-    console.log(total);
+
     $('#montoId').text(total);
+    $('#cantidadId').text(carrito.length);
     $('.Carrito').css('display', localStorage.getItem('ver'));
 });
+
 $(document).on('scroll', function () {
     var desplazamientoActual = $(document).scrollTop();
     var controlArriba = $('.Carrito');
@@ -49,4 +50,10 @@ function calcularTotal(carrito) {
     });
 
     return valor;
+}
+function verificarCarrito(item) {
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    if (carrito.some((element) => element.id === item.id)) {
+        $(`#${item.id}`).addClass('seccion--item-selecionado');
+    }
 }
